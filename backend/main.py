@@ -13,7 +13,7 @@ import base64
 import json
 
 # 百度 AI Studio API 配置
-AI_STUDIO_API_KEY = os.getenv("AI_STUDIO_API_KEY", "f4dfd437177d88b64029f7672792a2023bb70d55")
+AI_STUDIO_API_KEY = os.getenv("AI_STUDIO_API_KEY", "")
 if not AI_STUDIO_API_KEY:
     raise ValueError("AI_STUDIO_API_KEY environment variable is required. Please set it in .env file or environment variables.")
 
